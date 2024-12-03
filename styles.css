@@ -39,13 +39,19 @@ main > .content {
 main > .sidebar{
   padding: 15px;
   position: absolute;
-  align-items: right;
-
+  right: 0;
+  padding: 25px;
+  border: #9ad79b dashed 1px;
+  margin: 25px;
 }
 
 .features {
-  position: relative;
-  top: 1000px;
+  position: absolute;
+  width: 100%;
+  padding: 15px;
+  top: 460px;
+  border: #9ad79b dashed 1px;
+  text-align: center;
 }
 
 footer {
@@ -53,6 +59,6 @@ footer {
   padding: 15px;
   border: #9ad79b dashed 1px;
   width: 100%;
-  position: absolute;
+  position: fixed;
   bottom: 0;
 }
