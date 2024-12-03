@@ -26,8 +26,33 @@ header {
 }
 
 main {
-  margin-top: 10%;
+  position: absolute;
+  top: 100px;
+  width: 100%;
+}
+
+main > .content {
+  padding: 15px;
+  border: #9ad79b dashed 1px;
+}
+
+main > .sidebar{
+  padding: 15px;
+  position: absolute;
+  align-items: right;
+
+}
+
+.features {
+  position: relative;
+  top: 1000px;
 }
 
 footer {
+  text-align: center;
+  padding: 15px;
+  border: #9ad79b dashed 1px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }
